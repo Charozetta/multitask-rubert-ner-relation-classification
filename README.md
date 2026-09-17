@@ -64,8 +64,7 @@ NER metrics are intentionally separated to avoid ambiguity:
 
 ```text
 multitask-rubert-ner-relation-classification/
-├── notebooks/
-│   └── multitask_rubert_ner_relation_classification.ipynb
+├── multitask_rubert_ner_relation_classification.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
