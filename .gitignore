@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model artifacts and training outputs
+checkpoints/
+artifacts/
+models/
+outputs/
+runs/
+wandb/
+
+# Large model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face and local caches
+.huggingface/
+hf_cache/
+
